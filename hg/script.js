@@ -70,3 +70,20 @@ document.addEventListener('DOMContentLoaded', () => {
   /* Current year in footer */
   document.querySelectorAll('[data-year]').forEach(el => { el.textContent = new Date().getFullYear(); });
 });
+  /* ===== سهم العودة للأعلى ===== */
+  const scrollBtn = document.getElementById('scrollTopBtn');
+  if (scrollBtn) {
+    const toggleScrollBtn = () => {
+      if (window.scrollY > 400) {
+        scrollBtn.classList.add('visible');
+      } else {
+        scrollBtn.classList.remove('visible');
+      }
+    };
+    window.addEventListener('scroll', toggleScrollBtn, { passive: true });
+    toggleScrollBtn();
+
+    scrollBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
