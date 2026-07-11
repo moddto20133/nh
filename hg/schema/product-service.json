@@ -1,0 +1,13 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "First Class Advanced Co. — Product Catalog",
+  "itemListElement": [
+    {"@type":"Product","position":1,"name":"Iron Billets","description":"High-quality steel billets, 100x100 to 200x200 mm, ASTM A615 / EN 10025 / JIS G3112."},
+    {"@type":"Product","position":2,"name":"Galvanized Steel Coils","description":"Hot-dip galvanized steel coils, ASTM A653 / JIS G3302 / EN 10142, thickness 0.12-3.0mm."},
+    {"@type":"Product","position":3,"name":"Reinforcing Steel (Rebar)","description":"Deformed reinforcing bars, ASTM A615 / BS 4449 / SASO 205 / EN 10080, 8-32mm diameters."},
+    {"@type":"Product","position":4,"name":"Copper & Aluminum Scrap","description":"Recycling-grade copper and aluminum scrap, compressed bales, high purity."},
+    {"@type":"Product","position":5,"name":"Raw Plastic Materials","description":"PE, PP, PVC, PS, ABS, PET raw plastic resins for industrial applications."},
+    {"@type":"Product","position":6,"name":"Raw Chemical Materials","description":"Urea, sulfur, ammonia, phosphoric acid, caustic soda, and other industrial chemicals."}
+  ]
+}

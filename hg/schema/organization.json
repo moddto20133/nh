@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "First Class Advanced Co.",
+  "alternateName": "شركة الدرجة الأولى المتقدمة",
+  "url": "https://1stclass.com.sa/ar/home/",
+  "logo": "https://1stclass.com.sa/images/logo.webp",
+  "description": "شركة تجارية دولية متخصصة في توريد واستيراد وتصدير المعادن والمواد الخام البلاستيكية والكيميائية.",
+  "address": { "@type": "PostalAddress", "addressLocality": "Jeddah", "addressCountry": "SA" },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+966-50-696-3669",
+    "contactType": "sales",
+    "areaServed": "Worldwide",
+    "availableLanguage": ["ar", "en"]
+  },
+  "email": "info@1stclass.com.sa"
+}
